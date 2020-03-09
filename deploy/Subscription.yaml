@@ -3,7 +3,7 @@ kind: Subscription
 metadata:
   generation: 1
   name: openshift-pipelines-operator
-  namespace: openshift-operators
+  namespace: pipelineoperator
 spec:
   channel: dev-preview
   installPlanApproval: Automatic
