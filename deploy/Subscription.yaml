@@ -1,9 +1,8 @@
-
 apiVersion: operators.coreos.com/v1alpha1
 kind: Subscription
 metadata:
   name: openshift-pipelines-operator
-  namespace: pipelineoperator
+  namespace: openshift-operators
 spec:
   channel: canary
   installPlanApproval: Automatic
